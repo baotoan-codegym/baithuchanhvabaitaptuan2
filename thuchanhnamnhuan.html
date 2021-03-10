@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<script>
+   let year = parseInt(prompt("nhap vao day"));
+   if (year%4 == 0) {
+       if (year%100) {
+           if (year%400) {
+               alert(year + "la nam nhuan");
+           }else {
+               alert(year + "ko phai nam nhuan");
+           }
+
+       }else {
+           alert(year + "la nam nhuan");
+       }
+   }else {
+       alert(year + "ko phai nam nhuan");
+   }
+
+
+</script>
+</body>
+</html>
